@@ -6,47 +6,60 @@ body{
 .wrapper{
     height: 100vh;
     width: 100vw;
-    background-color: red;
     margin: 0;
     display: grid;
-    
+    background-image: url("020480.jpg")
 }
 
 header{
     height: 100px;
-    background-color: GREY;
+    background-color:#FFDD00;
     justify-content: space-between;
     display: flex; 
     align-items: center;
+    box-shadow: 10px 10px 10px black;
 }
 
 main{
-    background-color: black;
-    height: 100vh;
+    background-color:#00AF41;
+    height: 80vh;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10px;
 }
 .left{
     padding: 15px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     align-items: center;
-    
+    color: red;
 }
 
-img{
+.img{
     margin-right: 50px;
     justify-content: center;
 
     
+}
+.mainimg{
+    height: 50vh;
+    width: 80%;
+    background-image: url(img_3001.jpg);
+    background-size: cover;
+   margin-left: 10%;
+   margin-bottom:
 }
 
 .middle{
     position: absolute;
     margin-left: 50%;
     margin-right: 50%;
+    display: flex ;
+    align-content: space-around;
     
 }
 
-.pmain{
-    font-size: 100px;
+p{
+    font-size: 350%;
     color: white;
     justify-content: center;
     display:flex;
@@ -54,3 +67,24 @@ img{
     height: 100px;
 }
 
+.right{
+    margin-right: 10px;
+}
+
+.sidebuttonleft{
+    margin-top:30%;
+    margin-right: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.sidebuttonright{
+    margin-top:30%;
+    margin-left: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:underline
+}
