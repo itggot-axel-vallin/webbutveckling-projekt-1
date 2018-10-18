@@ -8,7 +8,7 @@ body{
     width: 100vw;
     margin: 0;
     display: grid;
-    background-image: url("site/img/epa.jpg")
+    background-color: white;
 }
 
 header{
@@ -17,7 +17,7 @@ header{
     justify-content: space-between;
     display: flex; 
     align-items: center;
-    box-shadow: 10px 10px 10px black;
+    box-shadow: 5px 5px 5px grey;
 }
 
 main{
@@ -26,12 +26,16 @@ main{
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 10px;
+    box-shadow: 5px 5px 5px grey;
+
 }
 .left{
-    padding: 15px;
+    margin-left: 10px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     align-items: center;
     color: red;
+    width: 330px;
+    
 }
 
 .img{
@@ -43,19 +47,19 @@ main{
 .mainimg{
     height: 50vh;
     width: 80%;
-    background-image: url(img_3001.jpg);
+    background-image: url("img/klase_wunderbaum.jpg");
     background-size: cover;
-   margin-left: 10%;
-   margin-bottom:
+    margin-left: 10%;
+   
 }
 
 .middle{
-    position: absolute;
-    margin-left: 50%;
-    margin-right: 50%;
-    display: flex ;
-    align-content: space-around;
     
+    display: flex;
+    align-content: space-around;
+    width: 330px;
+    justify-content: center;
+    align-items: center;
 }
 
 p{
@@ -68,17 +72,18 @@ p{
 }
 
 .right{
+    width: 330px;
+    display: flex;
+    justify-content: flex-end;
     margin-right: 10px;
 }
 
 .sidebuttonleft{
-    margin-top:30%;
-    margin-right: 20px;
+    margin-right: 5px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .sidebuttonright{
-    margin-top:30%;
-    margin-left: 20px;
+    margin-left: 5px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 a {
@@ -88,3 +93,60 @@ a {
 a:hover{
     text-decoration:underline
 }
+
+.about_content{
+   font-size: 5px;
+   padding: 20px
+}
+
+.about_title{
+    display:flex;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+
+}
+
+h2{
+    font-size: 35px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.shop_grid_wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+
+}
+
+.shop_title{
+    display:flex;
+    justify-content: center;
+}
+
+.shop_grid{
+    height:140px;
+    display:grid;
+    width:140px;
+    background-color: white;
+    padding:0px;
+    justify-content: center;
+    line-height: 1;
+    border-radius: 5px;
+    
+}
+
+.shopimg{
+    object-fit: contain;
+    width: 140px;
+    height: 140px;
+}
+
+
